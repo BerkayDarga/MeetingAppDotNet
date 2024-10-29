@@ -1,0 +1,22 @@
+@model MeetingInfo
+@{
+ViewBag.Title = "Toplantı başvuru";
+Layout = "_Layout2";
+}
+<main class="text-center">
+    <!-- <h1 class="h4">@ViewBag.Selamlama, @ViewBag.Userame</h1> -->
+    <h1 class="h4">@ViewData["Selamlama"],</h1>
+
+    <p>Toplantı katılım durumunuzu bildiriniz</p>
+
+    <div class="card my-2">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">@Model.Location</li>
+            <li class="list-group-item">@Model.Date.ToString("dd/MM/yyyy HH:mm:ss") tarihinde gerçekleşecek</li>
+            <li class="list-group-item">@Model.NumberOfPeople kişi katılacak</li>
+        </ul>
+    </div>
+
+    <a class="btn btn-sm btn-outline-primary" asp-controller="Meeting" asp-action="Apply">Başvuru yap</a>
+    <!-- href="/meeting/apply" yerine tag helper(asp-controller="Meeting" asp-action="Apply") kullandık -->
+</main>

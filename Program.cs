@@ -4,6 +4,14 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.UseStaticFiles();
 
+app.UseRouting();
+
+// {controller=Home}/{action=Index}/id?
+// app.MapDefaultControllerRoute(); yerine aşağıdaki de yazılabilir
+app.MapControllerRoute(
+    name:"default",
+    pattern:"{controller=Home}/{action=Index}/{id?}"
+);
 app.Run();
