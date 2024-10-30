@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dargaberkay/Documents/MeetingAppDotNet/MeetingAppDotNet.csproj": {}
+    "/Users/dargaberkay/Documents/github-projeler/MeetingAppDotNet/MeetingAppDotNet.csproj": {}
   },
   "projects": {
-    "/Users/dargaberkay/Documents/MeetingAppDotNet/MeetingAppDotNet.csproj": {
+    "/Users/dargaberkay/Documents/github-projeler/MeetingAppDotNet/MeetingAppDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dargaberkay/Documents/MeetingAppDotNet/MeetingAppDotNet.csproj",
+        "projectUniqueName": "/Users/dargaberkay/Documents/github-projeler/MeetingAppDotNet/MeetingAppDotNet.csproj",
         "projectName": "MeetingAppDotNet",
-        "projectPath": "/Users/dargaberkay/Documents/MeetingAppDotNet/MeetingAppDotNet.csproj",
+        "projectPath": "/Users/dargaberkay/Documents/github-projeler/MeetingAppDotNet/MeetingAppDotNet.csproj",
         "packagesPath": "/Users/dargaberkay/.nuget/packages/",
-        "outputPath": "/Users/dargaberkay/Documents/MeetingAppDotNet/obj/",
+        "outputPath": "/Users/dargaberkay/Documents/github-projeler/MeetingAppDotNet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dargaberkay/.nuget/NuGet/NuGet.Config"
