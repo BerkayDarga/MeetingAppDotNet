@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EcN3c2BK1aCfb7iG/Rke5nQhRyxDJYoz5MAT4CN6woQ=",
+  "Hash": "yLZLQ127eVvr77+fAY6Ri06VtNr7ZerJ0v+ARXVzvSQ=",
   "Source": "MeetingAppDotNet",
   "BasePath": "_content/MeetingAppDotNet",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/dargaberkay/Documents/github-projeler/MeetingAppDotNet/wwwroot/css/Styles.css",
+      "SourceId": "MeetingAppDotNet",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dargaberkay/Documents/github-projeler/MeetingAppDotNet/wwwroot/",
+      "BasePath": "_content/MeetingAppDotNet",
+      "RelativePath": "css/Styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/Styles.css"
+    },
     {
       "Identity": "/Users/dargaberkay/Documents/github-projeler/MeetingAppDotNet/wwwroot/lib/bootstrap/css/bootstrap-grid.css",
       "SourceId": "MeetingAppDotNet",

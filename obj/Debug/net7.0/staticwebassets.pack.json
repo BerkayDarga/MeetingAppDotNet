@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/Users/dargaberkay/Documents/github-projeler/MeetingAppDotNet/wwwroot/css/Styles.css",
+      "PackagePath": "staticwebassets/css/Styles.css"
+    },
+    {
       "Id": "/Users/dargaberkay/Documents/github-projeler/MeetingAppDotNet/wwwroot/lib/bootstrap/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/css/bootstrap-grid.css"
     },

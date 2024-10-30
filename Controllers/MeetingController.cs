@@ -21,11 +21,19 @@ namespace MeetingAppDotNet.Controllers
         public IActionResult Apply(UserInfo model)
 
         {
-            Repository.CreateUser(model);
-            ViewBag.UserCount = Repository.Users.Where(info => info.WillAttend == true).Count();
-            return View("Thanks", model);
-            // Console.WriteLine(Name);
-            // Console.WriteLine(Phone);
+            if (ModelState.IsValid)
+            {
+                Repository.CreateUser(model);
+                ViewBag.UserCount = Repository.Users.Where(info => info.WillAttend == true).Count();
+                return View("Thanks", model);
+                // Console.WriteLine(Name);
+                // Console.WriteLine(Phone);
+            }
+            else
+            {
+                return View(model);
+            }
+
 
         }
         [HttpGet]
